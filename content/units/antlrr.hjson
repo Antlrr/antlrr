@@ -18,29 +18,66 @@ weapons: [
    top: false
    mirror: false
    layer: 114
-   shots: 3
+   shots: 1
    inaccuracy: 4
    shotDelay: 6.50
    ejectEffect: none
    x: 0
    y: 0
-   reload: 20
+   reload: 80
    recoil: 0
    shootY: 70
    shootX: 10
    shootSound: laser
+   shotDelay: 60
    bullet: {
       type: LaserBulletType
       lifetime: 120
-      speed: 2
+      speed: 0.1
       damage: 20
       length: 45
       width: 5
-      shootEffect: none
       smokeEffect: none
       homingPower: 0.05
       colors: [ffffff, ffffff,ffffff]
       buildingDamageMultiplier: 200
+      shootEffect: {
+         type: MultiEffect
+         effects: [
+            {
+            type: ParticleEffect
+            lenFrom: 8
+            lenTo: 0
+            sizeFrom: 4
+            sizeTo: 0
+            colorFrom: ffffff
+            colorTo: ffffff
+            region: circle
+            particles: 6
+            }
+            {
+            type: WaveEffect
+            sizeFrom: 10
+            sizeTo: 0
+            colorFrom: ffffff
+            colorTo: ffffff00
+            strokeFrom: 1.50
+            strokeTo: 0.50
+            }
+            {
+            type: ParticleEffect
+            lifetime: 50
+            lenFrom: 0
+            lenTo: 6
+            sizeFrom: 4
+            sizeTo: 0
+            colorFrom: ffffff
+            colorTo: ffffff00
+            region: circle
+            particles: 5
+               }
+            ]
+         }
       }
    }
 ]
