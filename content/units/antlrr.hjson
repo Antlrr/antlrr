@@ -30,14 +30,14 @@ weapons: [
    shootY: 70
    shootX: 10
    shootSound: laser
-   firstShotDelay: 60
+   firstShotDelay: 30
    shootStatus: {
       name: stop
       localizedName: stop
       dragMultiplier: 4
       speedMultiplier: 0
    }
-   shootStatusDuration: 120
+   shootStatusDuration: 60
    bullet: {
       type: LaserBulletType
       sideWidth: 0
@@ -53,7 +53,7 @@ weapons: [
       buildingDamageMultiplier: 200
       shootEffect: {
          type: MultiEffect
-         lifetime: 120
+         lifetime: 60
          effects: [
             {
             type: ParticleEffect
@@ -92,7 +92,7 @@ weapons: [
             sizeFrom: 0
             sizeTo: 6
             colorFrom: ffffff
-            colorTo: ffffff
+            colorTo: ffffff00
             region: circle
             particles: 1
                }
