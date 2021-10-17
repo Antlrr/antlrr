@@ -1,0 +1,45 @@
+type: flying
+controller: FlyinfAI
+health: 1000
+isCounted: false
+speed: 3
+rotateSpeed: 5
+drag: 0.05
+accel: 0.5
+armor: 99
+mineTier: 69
+mineSpeed: 20
+buildSpeed: 10
+itemCapacity: 100
+flying: true
+weapons: [
+   {
+   name: error
+   top: false
+   mirror: false
+   layer: 114
+   shots: 3
+   inaccuracy: 4
+   shotDelay: 6.50
+   ejectEffect: none
+   x: 0
+   y: 0
+   reload: 20
+   recoil: 0
+   shootY: 10
+   shootX: 6
+   bullet: {
+      type: LaserBulletType
+      lifetime: 120
+      speed: 2
+      damage: 20
+      length: 45
+      width: 5
+      shootEffect: none
+      smokeEffect: none
+      homingPower: 0.05
+      colors: [ffffff, ffffff,ffffff]
+      buildingDamageMultiplier: 200
+      }
+   }
+]
