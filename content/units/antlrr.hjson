@@ -29,20 +29,21 @@ weapons: [
    shootY: 70
    shootX: 10
    shootSound: laser
-   shotDelay: 60
+   shotDelay: 120
    bullet: {
       type: LaserBulletType
       lifetime: 120
       speed: 0.1
       damage: 20
-      length: 45
-      width: 5
+      length: 69
+      width: 8
       smokeEffect: none
       homingPower: 0.05
       colors: [ffffff, ffffff,ffffff]
       buildingDamageMultiplier: 200
       shootEffect: {
          type: MultiEffect
+         lifetime: 110
          effects: [
             {
             type: ParticleEffect
@@ -66,7 +67,6 @@ weapons: [
             }
             {
             type: ParticleEffect
-            lifetime: 50
             lenFrom: 0
             lenTo: 6
             sizeFrom: 4
