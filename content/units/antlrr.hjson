@@ -34,7 +34,7 @@ weapons: [
    shootStatus: {
       name: stop
       localizedName: stop
-      dragMultiplier: 1
+      dragMultiplier: 4
       speedMultiplier: 0
    }
    shootStatusDuration: 60
@@ -53,7 +53,7 @@ weapons: [
       buildingDamageMultiplier: 200
       shootEffect: {
          type: MultiEffect
-         lifetime: 70
+         lifetime: 100
          effects: [
             {
             type: ParticleEffect
@@ -90,7 +90,7 @@ weapons: [
             type: ParticleEffect
             length: 0
             sizeFrom: 0
-            sizeTo: 8
+            sizeTo: 6
             colorFrom: ffffff
             colorTo: ffffff
             region: circle
