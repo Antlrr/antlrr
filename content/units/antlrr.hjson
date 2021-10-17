@@ -30,9 +30,11 @@ weapons: [
    shootY: 70
    shootX: 10
    shootSound: laser
-   shotDelay: 120
+   firstShotDelay: 60
    bullet: {
       type: LaserBulletType
+      sideWidth: 0
+      sideLength: 0
       lifetime: 120
       speed: 0.1
       damage: 20
@@ -44,11 +46,11 @@ weapons: [
       buildingDamageMultiplier: 200
       shootEffect: {
          type: MultiEffect
-         lifetime: 110
+         lifetime: 50
          effects: [
             {
             type: ParticleEffect
-            lenFrom: 8
+            lenFrom: 18
             lenTo: 0
             sizeFrom: 4
             sizeTo: 0
@@ -59,8 +61,8 @@ weapons: [
             }
             {
             type: WaveEffect
-            sizeFrom: 10
-            sizeTo: 0
+            sizeFrom: 20
+            sizeTo: 3
             colorFrom: ffffff
             colorTo: ffffff00
             strokeFrom: 1.50
@@ -69,7 +71,7 @@ weapons: [
             {
             type: ParticleEffect
             lenFrom: 0
-            lenTo: 6
+            lenTo: 16
             sizeFrom: 4
             sizeTo: 0
             colorFrom: ffffff
