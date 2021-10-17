@@ -1,5 +1,5 @@
 type: flying
-controller: FlyinfAI
+controller: FlyingAI
 health: 1000
 isCounted: false
 speed: 3
