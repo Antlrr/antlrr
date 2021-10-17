@@ -34,7 +34,7 @@ weapons: [
    shootStatus: {
       name: stop
       localizedName: stop
-      dragMultiplier: 0
+      dragMultiplier: 1
       speedMultiplier: 0
    }
    shootStatusDuration: 60
@@ -85,6 +85,16 @@ weapons: [
             colorTo: ffffff0
             region: circle
             particles: 5
+            }
+            {
+            type: ParticleEffect
+            length: 0
+            sizeFrom: 0
+            sizeTo: 8
+            colorFrom: ffffff
+            colorTo: ffffff
+            region: circle
+            particles: 1
                }
             ]
          }
