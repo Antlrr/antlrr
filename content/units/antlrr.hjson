@@ -12,6 +12,7 @@ mineSpeed: 20
 buildSpeed: 10
 itemCapacity: 100
 flying: true
+engineOffset: 2
 weapons: [
    {
    name: error
