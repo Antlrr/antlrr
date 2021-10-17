@@ -32,6 +32,8 @@ weapons: [
    shootSound: laser
    firstShotDelay: 60
    shootStatus: {
+      name: stop
+      localizedName: stop
       dragMultiplier: 0
       speedMultiplier: 0
    }
