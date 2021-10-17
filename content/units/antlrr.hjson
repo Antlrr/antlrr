@@ -26,8 +26,9 @@ weapons: [
    y: 0
    reload: 20
    recoil: 0
-   shootY: 10
-   shootX: 6
+   shootY: 70
+   shootX: 10
+   shootSound: laser
    bullet: {
       type: LaserBulletType
       lifetime: 120
