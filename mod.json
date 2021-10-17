@@ -1,0 +1,9 @@
+{
+   "name": "antlrr",
+   "displayName": "Antlrr", 
+   "author": "Antlrr",
+   "description": "adds Antlrr",
+   "version": "1.0",
+   "minGameVersion": "130",
+   "hidden": "true"
+}
