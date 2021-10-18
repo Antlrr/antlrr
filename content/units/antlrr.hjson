@@ -18,7 +18,7 @@ weapons: [
    name: ant-weapon1
    top: false
    mirror: false
-   rotate: true
+   rotate: false
    shots: 0
    ejectEffect: none
    x: 5
@@ -27,7 +27,8 @@ weapons: [
    recoil: 1
    bullet: {
       type: ArtilleryBulletType
-      lifetime: 0
+      lifetime: 60
+      speed: 1
       width: 2
       height: 2
       damage: 10
