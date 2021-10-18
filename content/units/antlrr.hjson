@@ -12,7 +12,7 @@ mineSpeed: 20
 buildSpeed: 10
 itemCapacity: 100
 flying: true
-engineOffset: 2
+engineOffset: 1
 weapons: [
    {
    name: ant-weapon1
@@ -34,6 +34,8 @@ weapons: [
       width: 4
       height: 4
       damage: 10
+      shrinkX: 0
+      shrinkY: 0
       }
    }
 ]
