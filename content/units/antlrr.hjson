@@ -17,9 +17,9 @@ weapons: [
    {
    name: ant-weapon1
    top: false
-   mirror: false
+   mirror: true
    rotate: false
-   shots: 0
+   shots: 1
    ejectEffect: none
    x: 5
    y: 1
