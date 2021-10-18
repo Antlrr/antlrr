@@ -15,89 +15,14 @@ flying: true
 engineOffset: 2
 weapons: [
    {
-   name: error
+   name: ant-weapon
    top: false
    mirror: false
    layer: 114
    shots: 1
    inaccuracy: 4
-   shotDelay: 6.50
    ejectEffect: none
    x: 0
    y: 0
-   reload: 80
+   reload: 60
    recoil: 0
-   shootY: 70
-   shootX: 10
-   shootSound: laser
-   firstShotDelay: 30
-   shootStatus: {
-      name: stop
-      localizedName: stop
-      dragMultiplier: 4
-      speedMultiplier: 0
-   }
-   shootStatusDuration: 60
-   bullet: {
-      type: LaserBulletType
-      sideWidth: 0
-      sideLength: 0
-      lifetime: 120
-      speed: 0.1
-      damage: 20
-      length: 69
-      width: 8
-      smokeEffect: none
-      homingPower: 0.05
-      colors: [ffffff, ffffff,ffffff]
-      buildingDamageMultiplier: 200
-      shootEffect: {
-         type: MultiEffect
-         lifetime: 60
-         effects: [
-            {
-            type: ParticleEffect
-            lenFrom: 18
-            lenTo: 0
-            sizeFrom: 4
-            sizeTo: 0
-            colorFrom: ffffff
-            colorTo: ffffff
-            region: circle
-            particles: 6
-            }
-            {
-            type: WaveEffect
-            sizeFrom: 20
-            sizeTo: 3
-            colorFrom: ffffff
-            colorTo: ffffff00
-            strokeFrom: 1.50
-            strokeTo: 0.50
-            }
-            {
-            type: ParticleEffect
-            lenFrom: 0
-            lenTo: 16
-            sizeFrom: 4
-            sizeTo: 0
-            colorFrom: ffffff
-            colorTo: ffffff0
-            region: circle
-            particles: 5
-            }
-            {
-            type: ParticleEffect
-            length: 0
-            sizeFrom: 0
-            sizeTo: 6
-            colorFrom: ffffff
-            colorTo: ffffff00
-            region: circle
-            particles: 1
-               }
-            ]
-         }
-      }
-   }
-]
