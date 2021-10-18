@@ -27,10 +27,11 @@ weapons: [
    recoil: 1
    bullet: {
       type: ArtilleryBulletType
-      lifetime: 60
+      sprite: circle-bullet
+      lifetime: 180
       speed: 1
-      width: 2
-      height: 2
+      width: 4
+      height: 4
       damage: 10
       }
    }
