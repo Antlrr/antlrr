@@ -15,14 +15,24 @@ flying: true
 engineOffset: 2
 weapons: [
    {
-   name: ant-weapon
+   name: ant-weapon0
    top: false
    mirror: false
+   rotate: true
    layer: 114
-   shots: 1
-   inaccuracy: 4
+   shots: 0
    ejectEffect: none
    x: 0
    y: 0
-   reload: 60
+   reload: 0
    recoil: 0
+   bullet: {
+      type: BulletType
+      lifetime: 0
+      width: 0
+      height: 0
+      damage: 0
+      }
+   }
+]
+   
